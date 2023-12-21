@@ -1,0 +1,40 @@
+# .gitignore
+
+# Diretórios
+docker/
+.vscode/
+.venv/
+.pytest_cache/
+.idea/
+
+# Arquivos
+.DS_Store
+
+# Arquivos específicos dentro de diretórios
+app/backup_log.txt
+tests/backup_log_test.txt
+
+# Outros
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivo de ambiente (se estiver usando virtualenv ou similar)
+.env
+
+# Arquivos de configuração do sistema
+*.pyc
+*.pyo
+*~
+__pycache__/
+*.db
+*.sqlite3
+
+# Logs e saídas
+*.log
+logs/
+*.swp
+
+# Arquivo gerado automaticamente
+venv/
